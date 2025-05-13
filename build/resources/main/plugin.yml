@@ -1,0 +1,4 @@
+name: rAnnounce
+version: 0.1-ALPHA
+main: com.rafaxplugins.announce.AnnouncePlugin
+author: Rafax

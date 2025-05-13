@@ -1,0 +1,35 @@
+#
+#        /\
+#  _ __ /  \   _ __  _ __   ___  _   _ _ __   ___ ___
+# | '__/ /\ \ | '_ \| '_ \ / _ \| | | | '_ \ / __/ _ \
+# | | / ____ \| | | | | | | (_) | |_| | | | | (_|  __/
+# |_|/_/    \_\_| |_|_| |_|\___/ \__,_|_| |_|\___\___|
+#
+
+# Comandos:
+# /anunciar <msg> - anunciar algo, alguma loja
+# /anunciar reload - reiniciar a configuração do plugin
+
+# Permissões:
+# As permissões estão por ai na config, announce.vip, bypass e etc, são todas configuráveis!
+
+player-need-permission: true # O jogador deve ter uma permissão para executar o comando?
+player-permission: "announce.vip" # Qual a permissão para executar o comando?
+player-no-has-permission: "&cVocê não possui permissão para realizar esta ação." # Mensagem de 'você não tem permissão'
+
+announce-bypass: true # Se o jogador tiver a permissão abaixo, burlar o delay do comando?
+announce-bypass-permission: "announce.bypass" # Qual a permissão para burlar o delay?
+
+announce-message:
+  - ""
+  - " &d&lANÚNCIO!"
+  - " &fO jogador &f<player>&f está anunciando:"
+  - ""
+  - " &8▸ &7<msg>"
+  - ""
+
+player-delay-to-announce: 5 # Tempo em minutos para executar o comando novamente
+player-must-wait: "&cVocê deve esperar <time> para enviar outro anúncio!" # Mensagem de espera para outro anúncio
+
+reload-permission: "announce.reload" # Permissão para reiniciar o plugin
+reload-config: "&aVocê reiniciou a config do plugin!" # Mensagem para quando o jogador reiniciar o plugin
